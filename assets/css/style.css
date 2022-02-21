@@ -11,7 +11,7 @@ body {
     /* background-color: tomato; */
 }
 
-/* applying sytles to <header> */
+/* applying styles to <header> */
 header {
     padding: 25px 35px;
     background-color: #39a6b2;
@@ -50,14 +50,14 @@ header nav ul li a {
     font-size: 22px;
 }
 
-/* applying sytles to <footer> */
+/* applying styles to <footer> */
 footer {
     background-color: #fce138;
     width: 100%;
     padding: 40px 35px;
 }
 
-/* Defines the h2 tag sytle within the footer */
+/* Defines the h2 tag style within the footer */
 footer h2 {
     display: inline;
     color: #024e76;
@@ -77,7 +77,7 @@ footer a {
     color: #024e76;
 }
 
-/* Defines the Sections sytle */
+/* Defines the Sections style */
 section {
     padding: 60px;
 }
@@ -101,5 +101,40 @@ section {
     position: absolute;
     bottom: 120px;
     right: 140px;
+}
 
+/* Formatting h3 tag to be a bit bigger within form */
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Formatting p tag to within hero-form */
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+/* Formatting input within hero-form */
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* formatting label within hero-form */
+.hero-form label {
+    margin: 0 5px;
+}
+
+/* Formatting button within hero-form */
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
 }
