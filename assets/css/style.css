@@ -244,7 +244,7 @@ section {
     float: left;
 }
 
-/* Formatting trainer bio */
+/* Formatting trainer bio within DIV*/
 .trainer-bio {
     padding: 35px;
     float: left;
@@ -268,6 +268,52 @@ section {
 .trainer-bio p {
     font-size: 17px;
     line-height: 1.3;
+}
+
+/* Formatting reach-out section */
+.contact {
+    background-color: #024e76;
+    text-align: center;
+}
+
+/* Formatting h2 tag for contact section */
+.contact h2 {
+    color: #fce138;
+}
+
+/* Defining the iframe size */
+.contact-info iframe {
+    width: 400px; 
+    height: 400px; 
+}
+
+/* Formatting contact-info DIV ??????? */
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+
+/* Formatting h3 tag for contact-info div */
+.contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+}
+
+/* Formatting p and address for contact-info */
+.contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+/* Formatting anchor style for contact-info */
+.contact-info a {
+    color: #fce138;
 }
 
 /* ########## Finish sections style ########## */
