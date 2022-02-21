@@ -1,0 +1,48 @@
+/* Defines section style for hero class (merge with default style.css) - Privacy-Policy.html */
+.hero {
+    height: auto;
+    background-position: bottom;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Defines the style for h2 tag in the privacy-policy page */
+.page-title {
+    color: #fce138;
+    display: inline-block;
+    border-bottom: 4px solid #fce138;
+    padding: 0 80px 15px 80px;
+    font-weight: normal;
+    font-size: 42px;
+    font-style: italic;
+}
+
+/* Defines the style for the article tag in the privacy-policy page */
+.secondary-content {
+    width: 80%;
+    margin: 0 auto;
+    color: #024e76;
+}
+
+/* Defines the style for h3 tag within the secondary-content article */
+.secondary-content h3 {
+    font-size: 25px;
+    margin: 20px 0 20px 0;
+}
+
+/* Defines the style for p tag under article */
+.secondary-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0 20px 0;
+}
+
+/* Defines the style for unordered list under article */
+.secondary-content ul {
+    margin: 15px 20px 15px 20px;
+}
+
+.secondary-content ul li {
+    color: #39a6b2;
+    margin: 10px auto;
+}
