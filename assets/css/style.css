@@ -76,3 +76,16 @@ footer div {
 footer a {
     color: #024e76;
 }
+
+/* Defines the Sections sytle */
+section {
+    padding: 60px;
+}
+
+/* Defines section style for hero class */
+.hero {
+    background-image: url("../images/hero-bg.jpeg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
