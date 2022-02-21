@@ -150,20 +150,27 @@ section {
     font-size: 16px;
 }
 
-/* Formatting what-we-do section */
-.intro  {
-    text-align: center;
-}
-
-/* Formatting h2 tag within what-we-do section */
-.intro h2 {
+/* Defining generic classes to all headings (steps) */
+.section-title {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
     display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+/* Formatting what-we-do section */
+.intro  {
+    text-align: center;
 }
 
 /* Formatting p tag within what-we-section */
@@ -173,6 +180,41 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+}
+
+/* Formatting what-we-do section */
+.steps {
+    text-align: center;
+    background-color: #fce138;
+}
+
+/* Formatting what-we-do div section */
+.steps div {
+    margin-bottom: 80px;
+}
+
+/* Formatting steps image size */
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+/* Formatting h3 tag style of what-we-do section */
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+/* Formatting p tag within what-we-do section */
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+/* Formatting span style for h3 tag of what you do section */
+.steps span {
+    font-size: 38px;
 }
 
 /* ########## Finish sections style ########## */
