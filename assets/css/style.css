@@ -6,16 +6,16 @@
 }
 
 
-/* ########## Start Body style ########## */
+/* ------------- Start Body style ------------- */
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #39a6b2;
     /* background-color: tomato; */
 }
-/* ########## Finish Body style ########## */
+/* ------------- Finish Body style ------------- */
 
 
-/* ########## Start header style ########## */
+/* ------------- Start header style ------------- */
 /* applying styles to <header> */
 header {
     padding: 25px 35px;
@@ -54,10 +54,10 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
-/* ########## Finish header style ########## */
+/* ------------- Finish header style ------------- */
 
 
-/* ########## Start footer style ########## */
+/* ------------- Start footer style ------------- */
 /* applying styles to <footer> */
 footer {
     background-color: #fce138;
@@ -84,10 +84,10 @@ footer div {
 footer a {
     color: #024e76;
 }
-/* ########## finish footer style ########## */
+/* ------------- finish footer style ------------- */
 
 
-/* ########## Start Sections style ########## */
+/* ------------- Start Sections style ------------- */
 /* Defines the Sections style */
 section {
     padding: 60px;
@@ -316,6 +316,6 @@ section {
     color: #fce138;
 }
 
-/* ########## Finish sections style ########## */
+/* ------------- Finish sections style ------------- */
 
 
