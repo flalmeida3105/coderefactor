@@ -46,16 +46,27 @@ header nav {
     margin: 7px 0;
 }
 
-/* Defines ONLY list item style within header and set it to inline */
-header nav ul li {
-    display: inline;
+/* Defines style for NAV UL */
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
+
+
+/* Defines ONLY list item style within header and set it to inline */
+/* header nav ul li {
+    display: inline;
+    
+} */
 
 /* Defines ONLY a tag styles within list item from header */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 /* ------------- Finish header style ------------- */
 
