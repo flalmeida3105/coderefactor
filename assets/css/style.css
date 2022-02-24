@@ -20,6 +20,9 @@ body {
 header {
     padding: 25px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* Defines h1 tag style within header */
@@ -28,7 +31,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
+    /* display: inline; */ 
 }
 
 /* Defines a tag style within header */
@@ -39,7 +42,7 @@ header a {
 
 /* Defines nav tag style within header */
 header nav {
-    float: right;
+    /* float: right; */
     margin: 7px 0;
 }
 
