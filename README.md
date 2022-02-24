@@ -12,3 +12,5 @@ https://flalmeida3105.github.io/coderefactor/
 
 ## Contribution
 Made with ❤️ by Fernando Almeida
+
+### ©️2019 Run Buddy, Inc 
