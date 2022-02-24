@@ -1,2 +1,14 @@
-# coderefactor
-UOFT week 1 - HTML CSS Git Challenge: Code Refactor
+# Run Buddy
+
+## Purpose
+A website that offers fitness training services.
+
+## Built With
+* HTML
+* CSS
+
+## Website
+https://flalmeida3105.github.io/coderefactor/
+
+## Contribution
+Made with ❤️ by Fernando Almeida
