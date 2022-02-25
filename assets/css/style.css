@@ -10,7 +10,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #39a6b2;
-    /* background-color: tomato; */
 }
 /* ------------- Finish Body style ------------- */
 
@@ -31,7 +30,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    /* display: inline; */ 
 }
 
 /* Defines a tag style within header */
@@ -42,7 +40,6 @@ header a {
 
 /* Defines nav tag style within header */
 header nav {
-    /* float: right; */
     margin: 7px 0;
 }
 
@@ -54,13 +51,6 @@ header nav ul {
     align-items: center;
     list-style: none;
 }
-
-
-/* Defines ONLY list item style within header and set it to inline */
-/* header nav ul li {
-    display: inline;
-    
-} */
 
 /* Defines ONLY a tag styles within list item from header */
 header nav ul li a {
@@ -84,7 +74,6 @@ footer {
 
 /* Defines the h2 tag style within the footer */
 footer h2 {
-    /* display: inline; */
     color: #024e76;
     font-size: 30px;
     margin: 0;
@@ -92,7 +81,6 @@ footer h2 {
 
 /* Defines the div tag style */
 footer div {
-    /* float: right; */
     line-height: 1.5;
     text-align: right;
 }
@@ -116,7 +104,6 @@ section {
     height: 600px;
     background-size: cover;
     background-position: center;
-    /* position: relative; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -145,7 +132,6 @@ section {
     padding: 20px;
     width: 40%;
     color: #024e76;
-    /* position: absolute; */
     bottom: 120px;
     right: 140px;
     margin: 3.5%;
@@ -191,9 +177,11 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
+    margin: 0 auto 35px auto;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 50%;
+    /* display: inline-block; */
     border-bottom: 3px solid;
 }
 
@@ -213,9 +201,8 @@ section {
     text-align: right;
 }
 
-/* Formatting what-we-do section */
-.intro  {
-    text-align: center;
+.flex-row {
+    display: flex;
 }
 
 /* Formatting p tag within what-we-section */
@@ -225,47 +212,62 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
-/* Formatting what-we-do section */
-.steps {
-    text-align: center;
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     background-color: #fce138;
 }
 
-/* Formatting what-we-do div section */
-.steps div {
-    margin-bottom: 80px;
-}
-
-/* Formatting steps image size */
-.steps img {
-    width: 15%;
-    margin: 10px 0;
-}
-
 /* Formatting h3 tag style of what-we-do section */
-.steps h3 {
+.step h3 {
+    flex: 1 30%;
     color: #024e76;
     font-size: 46px;
-    margin-top: 10px;
+}
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+}
+
+.step-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 2 70%;
+}
+
+.step-text {
+    flex: 12;
 }
 
 /* Formatting p tag within what-we-do section */
-.steps p {
+.step-text-p {
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
 }
 
-/* Formatting span style for h3 tag of what you do section */
-.steps span {
-    font-size: 38px;
+/* Formatting step image style */
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
 }
 
-/* Formatting general style for trainers section */
-.trainers {
-    text-align: center;
+/* Avoiding Edge bug by adding width to img */
+.step-img img {
+    max-width: 100%;
 }
+
 
 /* Formatting article that applies to all trainers */
 .trainer {
@@ -310,7 +312,7 @@ section {
 /* Formatting reach-out section */
 .contact {
     background-color: #024e76;
-    text-align: center;
+    /* text-align: center; */
 }
 
 /* Formatting h2 tag for contact section */
