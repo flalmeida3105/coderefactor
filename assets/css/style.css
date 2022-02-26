@@ -17,7 +17,7 @@ body {
 /* ------------- Start header style ------------- */
 /* applying styles to <header> */
 header {
-    padding: 25px 35px;
+    padding: 20px 35px;
     background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
@@ -64,7 +64,7 @@ header nav ul li a {
 /* ------------- Start footer style ------------- */
 /* applying styles to <footer> */
 footer {
-    background-color: #fce138;
+    background: #fce138;
     width: 100%;
     padding: 40px 35px;
     display: flex;
@@ -101,7 +101,6 @@ section {
 /* Defines section style for hero class */
 .hero {
     background-image: url("../images/hero-bg.jpeg");
-    height: 600px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -132,8 +131,6 @@ section {
     padding: 20px;
     width: 40%;
     color: #024e76;
-    bottom: 120px;
-    right: 140px;
     margin: 3.5%;
 }
 
@@ -215,6 +212,9 @@ section {
 }
 
 /* Defining step style */
+.steps { 
+  background: #fce138;
+}
 .step {
     margin: 50px auto;
     padding-bottom: 50px;
@@ -224,7 +224,6 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #fce138;
 }
 
 /* Formatting text tag style of what-we-do section */
@@ -317,7 +316,7 @@ section {
 
 /* Formatting reach-out section */
 .contact {
-    background-color: #024e76;
+    background: #024e76;
 }
 
 /* Formatting h2 tag for contact section */
@@ -384,7 +383,7 @@ section {
     background: #fce138;
     color: #024e76;
     text-align: center;
-    padding: 15px 0 ;
+    padding: 15px 0;
     font-size: 16px;
 }
 
