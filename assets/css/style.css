@@ -54,7 +54,7 @@ header nav ul {
 
 /* Defines ONLY a tag styles within list item from header */
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -106,6 +106,7 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 /* Defines Call to Action section style */
@@ -115,7 +116,7 @@ section {
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -172,7 +173,7 @@ section {
 
 /* Defining generic classes to all headings (steps) */
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     margin: 0 auto 35px auto;
     padding-bottom: 20px;
@@ -224,6 +225,7 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    background-color: #fce138;
 }
 
 /* Formatting text tag style of what-we-do section */
@@ -389,4 +391,29 @@ section {
 
 /* ------------- Finish sections style ------------- */
 
+/* Media query for smaller devices */
+@media screen and (max-width:980px) {
 
+}
+
+    /* header h1 a {
+        applies to screen smaller than 980px
+        color: tomato;
+    }
+}
+
+Media query for tablets and smaller
+@media screen and (max-width:768px) {
+    header h1 {
+        applies to screen between 575px and 768px
+        font-size: 80px;
+    }
+}
+
+Media query for mobiles and smaller
+@media screen and (max-width:575px) {
+    header h1 {
+        applies to screen smaller than 575px
+        font-size: 100px;
+    }
+} */
